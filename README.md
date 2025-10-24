@@ -16,7 +16,7 @@
 - Consulta de histórico
 - Geração de relatórios de frequência
 	- Análise de locais com maior demanda de bicicletas
-	-Disponibilidade de bicicletas
+	- Disponibilidade de bicicletas
 ## 2.3 Tipos de Usuários
 - Estudantes e Funcionários da UFRPE: utilizam as bicicletas
 - Administrador: configura o sistema e gerencia as permissões
