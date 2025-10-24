@@ -12,7 +12,10 @@
 ## 2.1 Perspectiva do Produto
 - O sistema tem como objetivo facilitar a locomoção entre pontos de interesse dentro da área da UFRPE e otimizar o tempo do usuário para realizar tais tarefas.  
 ## 2.2 Funções Principais
-- Registro de uso (Momento de cessão, Momento da devolução, Tempo máximo de uso)
+- Registro de uso
+	- Momento de cessão
+   	- Momento da devolução
+   	- Tempo máximo de uso
 - Consulta de histórico
 - Geração de relatórios de frequência
 	- Análise de locais com maior demanda de bicicletas
@@ -23,5 +26,8 @@
 - Repositor: realoca as bicicletas para locais que precisam
 ## 2.4 Restrições
 - O sistema deve armazenar dados por no mínimo 1 mês, para análise de demanda.
+## 2.5 Suposições e Dependências
+- O sistema depende de conexão com a internet, de acesso a rede de localização e integração com o banco de dados de demanda.
+
 
 ![omg](https://github.com/user-attachments/assets/54622bbd-cb40-483a-843d-2b4b1046ce0f)
