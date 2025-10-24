@@ -44,8 +44,22 @@
   	- O sistema deve permitir ao usuário escanear o QR Code de uma bicicleta utilizando a câmera do dispositivo para iniciar o processo de liberação.
 - RF02:
   	- O sistema deve registrar a data de uso, o tempo, em que hora foi cedida e devolvida, e a localização de onde foi devolvida.
+- RF03:
+  	- O sistema deve permitir que usuários com vínculo ativo na UFRPE se cadastrem utilizando seu e-mail institucional.
+- RF04:
+  	- O sistema deve exibir um mapa do campus com a localização em tempo real das bicicletas disponíveis.
+- RF05:
+  	- O sistema deve permitir que o administrador visualize relatórios de uso por período.
 
 ## 4.Requisitos Não Funcionais (RNF)
+- RNF01 (Usabilidade)
+	- A interface deve ser intuitiva, permitindo que um novo usuário consiga liberar uma bicicleta em menos de 3 minutos no primeiro uso.
+- RNF02 (Desempenho)
+  	- A liberação de uma bicicleta após a leitura do QR Code deve ocorrer em no máximo 5 segundos.
+- RNF03 (Segurança)
+  	- O sistema deve criptografar todos os dados sensíveis dos usuários, em conformidade com a LGPD.
+- RNF04 (Disponibilidade)
+  	- O sistema deve operar das 5:00 até às 22:00, de Segunda à Sexta.
 
 
 
