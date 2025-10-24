@@ -1,4 +1,5 @@
 # Levantamento de Requisitos (BUR - UFRPE) 
+<img src="https://github.com/user-attachments/assets/54622bbd-cb40-483a-843d-2b4b1046ce0f" width="300" height="300">
 ## 1.1 Propósito
 - Este documento tem como objetivo descrever os requisitos funcionais e não funcionais do Sistema de Bicicleta Universitária da UFRPE (BUR), que será utilizado para registrar e gerenciar a jornada de trabalho dos colaboradores da empresa.
 ## 1.2 Escopo do Sistema
@@ -30,4 +31,4 @@
 - O sistema depende de conexão com a internet, de acesso a rede de localização e integração com o banco de dados de demanda.
 
 
-<img src="https://github.com/user-attachments/assets/54622bbd-cb40-483a-843d-2b4b1046ce0f" width="400" height="300">
+
