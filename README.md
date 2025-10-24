@@ -8,3 +8,18 @@
 - UFRPE: Universidade Federal Rural de Pernambuco
 ## 1.4 Referências
 - Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD)
+# 2. Descrição Geral
+## 2.1 Perspectiva do Produto
+- O sistema tem como objetivo facilitar a locomoção entre pontos de interesse dentro da área da UFRPE e otimizar o tempo do usuário para realizar tais tarefas.  
+## 2.2 Funções Principais
+- Registro de uso (Momento de cessão, Momento da devolução, Tempo máximo de uso)
+- Consulta de histórico
+- Geração de relatórios de frequência
+	- Análise de locais com maior demanda de bicicletas
+-Disponibilidade de bicicletas
+## 2.3 Tipos de Usuários
+- Estudantes e Funcionários da UFRPE: utilizam as bicicletas
+- Administrador: configura o sistema e gerencia as permissões
+- Repositor: realoca as bicicletas para locais que precisam
+##2.4 Restrições
+- O sistema deve armazenar dados por no mínimo 1 mês, para análise de demanda.
