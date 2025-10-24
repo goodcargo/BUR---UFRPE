@@ -23,3 +23,5 @@
 - Repositor: realoca as bicicletas para locais que precisam
 ##2.4 Restrições
 - O sistema deve armazenar dados por no mínimo 1 mês, para análise de demanda.
+
+![omg](https://github.com/user-attachments/assets/54622bbd-cb40-483a-843d-2b4b1046ce0f)
