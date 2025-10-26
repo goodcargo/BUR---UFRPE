@@ -50,6 +50,9 @@
   	- O sistema deve exibir um mapa do campus com a localização em tempo real das bicicletas disponíveis.
 - RF05:
   	- O sistema deve permitir que o administrador visualize relatórios de uso por período.
+- RF06:
+  	- O sistema deve mostrar o tempo de uso da bicicleta, e o tempo máximo de uso.
+
 
 ## 4.Requisitos Não Funcionais (RNF)
 - RNF01 (Usabilidade)
