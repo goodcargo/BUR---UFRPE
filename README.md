@@ -35,7 +35,7 @@
 - Repositor: realoca as bicicletas para locais que precisam.
 ### 2.4 Restrições
 - O sistema deve armazenar dados por no mínimo 1 mês, para análise de demanda.
-- O sistema deve utilizar Wi-Fi ou Dados Móveis para conseguir ser utilizado.
+- O sistema deve utilizar Wi-Fi e/ou Dados Móveis para conseguir ser utilizado.
 ### 2.5 Suposições e Dependências
 - O sistema depende de conexão com a internet, de acesso a rede de localização e integração com o banco de dados de demanda.
 - As bicicletas irao depender de uma manutenção constante para garantir a segurança do usuário.
