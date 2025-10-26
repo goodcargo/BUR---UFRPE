@@ -1,10 +1,12 @@
 # Levantamento de Requisitos (BUR - UFRPE)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/54622bbd-cb40-483a-843d-2b4b1046ce0f" 
-	  width="300"
-	  height="300"
-	  >
+  <img src="![bicicleta](https://github.com/user-attachments/assets/e2f35a68-8bef-4bce-95d3-74dcd45e9a95)"
+
+
+      width="300"
+      height="300"
+      >
 </div>
 
 ## 1. Introdução
