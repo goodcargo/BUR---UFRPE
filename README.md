@@ -45,7 +45,7 @@
 - RF01:
   	- O sistema deve permitir ao usuário escanear o QR Code de uma bicicleta utilizando a câmera do dispositivo para iniciar o processo de liberação.
 - RF02:
-  	- O sistema deve registrar a data de uso, o tempo, em que hora foi cedida e devolvida, e a localização de onde foi devolvida.
+  	- O sistema deve registrar a data de uso, o tempo, em que hora foi cedida e devolvida, a localização de onde foi devolvida, e rastrear o percuruso do usuário.
 - RF03:
   	- O sistema deve permitir que usuários com vínculo ativo na UFRPE se cadastrem utilizando seu e-mail institucional.
 - RF04:
