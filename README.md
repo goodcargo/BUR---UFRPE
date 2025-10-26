@@ -56,7 +56,7 @@
   	- O sistema deve mostrar o tempo de uso da bicicleta, e o tempo máximo de uso.
 
 
-## 4.Requisitos Não Funcionais (RNF)
+## 4. Requisitos Não Funcionais (RNF)
 - RNF01 (Usabilidade)
 	- A interface deve ser intuitiva, permitindo que um novo usuário consiga liberar uma bicicleta em menos de 3 minutos no primeiro uso.
 - RNF02 (Desempenho)
