@@ -16,7 +16,8 @@
 - BUR: Bicicleta Universitária Rural
 - UFRPE: Universidade Federal Rural de Pernambuco
 ### 1.4 Referências
-- Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD)
+- Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD).
+- Código de Trânsito Brasileiro (CTB), especialmente o Artigo 58, que estabelece que bicicletas devem usar ciclovias, ciclofaixas ou acostamentos quando disponíveis.
 ## 2. Descrição Geral
 ### 2.1 Perspectiva do Produto
 - O sistema tem como objetivo facilitar a locomoção entre pontos de interesse dentro da área da UFRPE e otimizar o tempo do usuário para realizar tais tarefas.  
