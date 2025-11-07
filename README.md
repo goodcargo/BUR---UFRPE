@@ -80,26 +80,26 @@
 
 ## 7.Requisitos de dados
 - ID do usuário
-- data, hora
-- localização
+- Data e hora
+- Localização
 - ID da bicicleta
 - Status (em uso, disponivel, manuntenção)
-- os registros devem ser armazenados em banco relacional(ex: PostgreSQL)
-- backups diarios devem ser realizados automaticamente.
+- Os registros devem ser armazenados em banco relacional(ex: PostgreSQL)
+- Backups diarios devem ser realizados automaticamente.
 
 ## 8. Critérios de Aceitação.
-- RF01 :
-      - O usuario deve escanear QR CODE de uma bicicleta e na tela apos escanear aparece no sistema que o ID da bicicleta ta linkado ao o ID do usuario que utilizou o QR CODE.
+- RF01:
+  - O usuário deve escanear o QR CODE da bicicleta e na tela do celular, após escanear, aparece no sistema que o ID da bicicleta está linkado ao o ID do usuário que utilizou o QR CODE.
 - RF02:
-    - o historico do uso deve mostrar a data do uso , hora que a bicileta foi cedida e devolvida, localização de onde foi cedida e devolvida
+  - O histórico de uso deve mostrar a data do uso, hora que a bicicleta foi cedida e devolvida e a localização de onde foi cedida e devolvida.
 - RF03:
-     - criterio para utilizar o sistena é logar pelo email constitucional da faculdade.
+  - Critério para utilizar o sistema é logar pelo e-mail constitucional da faculdade.
 - RF04:
-      - O mapa deve atualizar em tempo real o numero de bicicletas disponiveis para uso nos pontos de resgate e entrega.
+  - O mapa deve ser atualizado em tempo real, e deve mostrar o número de bicicletas disponíveis para uso nos pontos de resgate e entrega.
 - RF05:
-	   - Apenas o administrador visualize relatorios de uso por período.
+  - Apenas o administrador pode vizualizar os relatórios de uso por período.
 - RF06:
-      - Se exceder o tempo maximo de uso nao aceitara que o usuario resgate outra bicileta.            
+  - Se exceder o tempo máximo de uso, o sistema aplicará penalidades ao usuário.            
 
 ## 9.Anexos
 https://preview--rural-wheels.lovable.app/auth
