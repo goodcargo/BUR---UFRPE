@@ -101,3 +101,5 @@
 - RF06:
       - Se exceder o tempo maximo de uso nao aceitara que o usuario resgate outra bicileta.            
 
+## 9.Anexos
+https://preview--rural-wheels.lovable.app/auth
