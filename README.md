@@ -66,5 +66,38 @@
 - RNF04 (Disponibilidade)
   	- O sistema deve operar das 5:00 até às 22:00, de Segunda à Sexta.
 
+## 5.Regras de Negócio
+- RN01: Cada usuário pode utilizar uma bicicleta por vez.
+- RM02: Ter um tempo limite para devolver a bicicleta.
+- RN03: Para solicitar manuntenção da bicileta tem que mandar a foto da parte que precisa de manuntenão.
 
+ ## 6.Requisitos de interface 
+ - Tela de login e autenticação.
+ - Tela principal com o mapa mostrando os pontos de bicileta e quantas bicicletas tem disponivel.
+ - Tela de historico de usos da biciclta.
+ - Tela de solicitar manuntenção.
+ - Tela de perfil.
+
+## 7.Requisitos de dados
+- ID do usuário
+- data, hora
+- localização
+- ID da bicicleta
+- Status (em uso, disponivel, manuntenção)
+- os registros devem ser armazenados em banco relacional(ex: PostgreSQL)
+- backups diarios devem ser realizados automaticamente.
+
+## 8. Critérios de Aceitação.
+- RF01 :
+      - O usuario deve escanear QR CODE de uma bicicleta e na tela apos escanear aparece no sistema que o ID da bicicleta ta linkado ao o ID do usuario que utilizou o QR CODE.
+- RF02:
+    - o historico do uso deve mostrar a data do uso , hora que a bicileta foi cedida e devolvida, localização de onde foi cedida e devolvida
+- RF03:
+     - criterio para utilizar o sistena é logar pelo email constitucional da faculdade.
+- RF04:
+      - O mapa deve atualizar em tempo real o numero de bicicletas disponiveis para uso nos pontos de resgate e entrega.
+- RF05:
+	   - Apenas o administrador visualize relatorios de uso por período.
+- RF06:
+      - Se exceder o tempo maximo de uso nao aceitara que o usuario resgate outra bicileta.            
 
