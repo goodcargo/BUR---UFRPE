@@ -88,18 +88,34 @@
 - Backups diarios devem ser realizados automaticamente.
 
 ## 8. Critérios de Aceitação.
-- RF01:
-  - O usuário deve escanear o QR CODE da bicicleta e na tela do celular, após escanear, aparece no sistema que o ID da bicicleta está linkado ao o ID do usuário que utilizou o QR CODE.
-- RF02:
-  - O histórico de uso deve mostrar a data do uso, hora que a bicicleta foi cedida e devolvida e a localização de onde foi cedida e devolvida.
-- RF03:
-  - Critério para utilizar o sistema é logar pelo e-mail constitucional da faculdade.
-- RF04:
-  - O mapa deve ser atualizado em tempo real, e deve mostrar o número de bicicletas disponíveis para uso nos pontos de resgate e entrega.
-- RF05:
-  - Apenas o administrador pode vizualizar os relatórios de uso por período.
-- RF06:
-  - Se exceder o tempo máximo de uso, o sistema aplicará penalidades ao usuário.            
+- RF01: Escaneamento e Associações de Bicicletas
+	Critério:
+  		-Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
+
+		- Observação: A vinculação deve ser persistida para iniciar o período de uso.
+- RF02: Histórico Detalhado de Uso
+	Critério:
+  		- O histórico de uso deve fornecer um registro completo contendo:
+
+		-Data do uso.
+
+		-Hora de Início (bicicleta cedida) e Hora de Fim (bicicleta devolvida).
+
+		-Localização exata (ponto de resgate) de onde a bicicleta foi cedida.
+
+		-Localização exata (ponto de entrega) de onde a bicicleta foi devolvida.
+- RF03: Autenticação Institucional
+	Critério:
+	-  O acesso e a utilização do sistema são estritamente condicionados ao login bem-sucedido utilizando o e-mail constitucional (institucional) da faculdade.
+
+	- Observação: Nenhum outro tipo de credencial deve permitir o acesso.
+- RF04: Atualização do Mapa de Disponibilidade:
+		-O mapa deve ser atualizado em tempo real, exibindo o número exato de bicicletas disponíveis em cada estação (ponto de retirada/devolução).
+- RF05: Acesso Restrito a Relatórios
+		-Apenas usuários com perfil de Administrador podem visualizar os relatórios de uso (com filtro por período).
+  
+- RF06: Aplicação de Penalidades por Tempo
+		-O sistema deve aplicar automaticamente as penalidades definidas (conforme regra de negócio) ao usuário que exceder o tempo máximo de uso permitido.           
 
 ## 9.Anexos
 https://preview--rural-wheels.lovable.app/auth
