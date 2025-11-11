@@ -89,12 +89,12 @@
 
 ## 8. Critérios de Aceitação.
 - RF01: Escaneamento e Associações de Bicicletas
-	Critério:
+	-Critério:
   		-Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
 
 		- Observação: A vinculação deve ser persistida para iniciar o período de uso.
 - RF02: Histórico Detalhado de Uso
-	Critério:
+	-Critério:
   		- O histórico de uso deve fornecer um registro completo contendo:
 
 		-Data do uso.
@@ -105,7 +105,7 @@
 
 		-Localização exata (ponto de entrega) de onde a bicicleta foi devolvida.
 - RF03: Autenticação Institucional
-	Critério:
+	-Critério:
 	-  O acesso e a utilização do sistema são estritamente condicionados ao login bem-sucedido utilizando o e-mail constitucional (institucional) da faculdade.
 
 	- Observação: Nenhum outro tipo de credencial deve permitir o acesso.
