@@ -88,13 +88,13 @@
 - Backups diarios devem ser realizados automaticamente.
 
 ## 8. Critérios de Aceitação.
-RF01: Escaneamento e Associações de Bicicletas
+### RF01: Escaneamento e Associações de Bicicletas
 
 Critério: Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
 
 Observação: A vinculação deve ser persistida para iniciar o período de uso.
 
-RF02: Histórico Detalhado de Uso
+### RF02: Histórico Detalhado de Uso
 
 Critério: O histórico de uso deve fornecer um registro completo contendo:
 
@@ -106,21 +106,21 @@ Localização exata (ponto de resgate) de onde a bicicleta foi cedida.
 
 Localização exata (ponto de entrega) de onde a bicicleta foi devolvida.
 
-RF03: Autenticação Institucional
+### RF03: Autenticação Institucional
 
 Critério: O acesso e a utilização do sistema são estritamente condicionados ao login bem-sucedido utilizando o e-mail constitucional (institucional) da faculdade.
 
 Observação: Nenhum outro tipo de credencial deve permitir o acesso.
 
-RF04: Atualização do Mapa de Disponibilidade
+### RF04: Atualização do Mapa de Disponibilidade
 
 Critério: O mapa deve ser atualizado em tempo real, exibindo o número exato de bicicletas disponíveis em cada estação (ponto de retirada/devolução).
 
-RF05: Acesso Restrito a Relatórios
+### RF05: Acesso Restrito a Relatórios
 
 Critério: Apenas usuários com perfil de Administrador podem visualizar os relatórios de uso (com filtro por período).
 
-RF06: Aplicação de Penalidades por Tempo
+### RF06: Aplicação de Penalidades por Tempo
 
 Critério: O sistema deve aplicar automaticamente as penalidades definidas (conforme regra de negócio) ao usuário que exceder o tempo máximo de uso permitido.     
 
