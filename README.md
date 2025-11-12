@@ -88,9 +88,9 @@
 - Backups diarios devem ser realizados automaticamente.
 
 ## 8. Critérios de Aceitação.
-### RF01: Escaneamento e Associações de Bicicletas
+- RF01: Escaneamento e Associações de Bicicletas
 
-- Critério: Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
+ - Critério: Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
 
 - Observação: A vinculação deve ser persistida para iniciar o período de uso.
 
