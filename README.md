@@ -89,40 +89,37 @@
 
 ## 8. Critérios de Aceitação.
 - RF01: Escaneamento e Associações de Bicicletas
+	- Critério: Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
+	- Observação: A vinculação deve ser persistida para iniciar o período de uso.
 
- - Critério: Após o usuário escanear o QR Code de uma bicicleta, o sistema deve registrar e exibir a associação imediata entre o ID da bicicleta (escaneada) e o ID do usuário (logado).
+- RF02: Histórico Detalhado de Uso
+	- Critério: O histórico de uso deve fornecer um registro completo contendo:
 
-- Observação: A vinculação deve ser persistida para iniciar o período de uso.
+	- Data do uso.
 
-### RF02: Histórico Detalhado de Uso
+	- Hora de Início (bicicleta cedida) e Hora de Fim (bicicleta devolvida).
 
-- Critério: O histórico de uso deve fornecer um registro completo contendo:
+	- Localização exata (ponto de resgate) de onde a bicicleta foi cedida.
 
-- Data do uso.
+	- Localização exata (ponto de entrega) de onde a bicicleta foi devolvida.
 
-- Hora de Início (bicicleta cedida) e Hora de Fim (bicicleta devolvida).
+- RF03: Autenticação Institucional
 
-- Localização exata (ponto de resgate) de onde a bicicleta foi cedida.
+	- Critério: O acesso e a utilização do sistema são estritamente condicionados ao login bem-sucedido utilizando o e-mail constitucional (institucional) da faculdade.
 
-- Localização exata (ponto de entrega) de onde a bicicleta foi devolvida.
+	- Observação: Nenhum outro tipo de credencial deve permitir o acesso.
 
-### RF03: Autenticação Institucional
+- RF04: Atualização do Mapa de Disponibilidade
 
-- Critério: O acesso e a utilização do sistema são estritamente condicionados ao login bem-sucedido utilizando o e-mail constitucional (institucional) da faculdade.
+	- Critério: O mapa deve ser atualizado em tempo real, exibindo o número exato de bicicletas disponíveis em cada estação (ponto de retirada/devolução).
 
-- Observação: Nenhum outro tipo de credencial deve permitir o acesso.
+- RF05: Acesso Restrito a Relatórios
 
-### RF04: Atualização do Mapa de Disponibilidade
+	- Critério: Apenas usuários com perfil de Administrador podem visualizar os relatórios de uso (com filtro por período).
 
-- Critério: O mapa deve ser atualizado em tempo real, exibindo o número exato de bicicletas disponíveis em cada estação (ponto de retirada/devolução).
+- RF06: Aplicação de Penalidades por Tempo
 
-### RF05: Acesso Restrito a Relatórios
-
-- Critério: Apenas usuários com perfil de Administrador podem visualizar os relatórios de uso (com filtro por período).
-
-### RF06: Aplicação de Penalidades por Tempo
-
-- Critério: O sistema deve aplicar automaticamente as penalidades definidas (conforme regra de negócio) ao usuário que exceder o tempo máximo de uso permitido.     
+	- Critério: O sistema deve aplicar automaticamente as penalidades definidas (conforme regra de negócio) ao usuário que exceder o tempo máximo de uso permitido.     
 
 ## 9.Anexos
 https://preview--rural-wheels.lovable.app/auth
