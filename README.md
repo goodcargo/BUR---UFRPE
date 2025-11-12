@@ -123,3 +123,7 @@
 
 ## 9.Anexos
 https://preview--rural-wheels.lovable.app/auth
+- Diagrama de Casos:
+
+![Captura de tela 2025-11-11 221950](https://github.com/user-attachments/assets/a284e754-43c9-4ec0-af97-b07709680cc7)
+
