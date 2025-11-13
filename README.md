@@ -68,7 +68,7 @@
 
 ## 5.Regras de Negócio
 - RN01: Cada usuário pode utilizar uma bicicleta por vez.
-- RM02: Ter um tempo limite para devolver a bicicleta.
+- RN02: Ter um tempo limite para devolver a bicicleta.
 - RN03: Para solicitar manuntenção da bicileta tem que mandar a foto da parte que precisa de manuntenão.
 
  ## 6.Requisitos de interface 
