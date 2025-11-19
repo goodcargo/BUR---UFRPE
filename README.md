@@ -123,7 +123,7 @@
 
 ## 9.Anexos
 https://preview--rural-wheels.lovable.app/auth
-<li>Canva: <a href="LINK CANVA">Protótipo</a></li>
+<li>Canva: <a href="https://www.canva.com/design/DAG4cLYhkQ8/W4fx9rWfskaS2tInZWJWZA/edit">Protótipo</a></li>
 	
 Diagrama de Casos:
 
