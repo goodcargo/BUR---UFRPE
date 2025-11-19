@@ -122,10 +122,9 @@
 	- Critério: O sistema deve aplicar automaticamente as penalidades definidas (conforme regra de negócio) ao usuário que exceder o tempo máximo de uso permitido.     
 
 ## 9.Anexos
-https://preview--rural-wheels.lovable.app/auth
-<li>Canva: <a href="https://www.canva.com/design/DAG4cLYhkQ8/W4fx9rWfskaS2tInZWJWZA/edit">Protótipo</a></li>
+- <li> Canva: <a href="https://www.canva.com/design/DAG4cLYhkQ8/W4fx9rWfskaS2tInZWJWZA/edit">Protótipo</a></li>
 	
-Diagrama de Casos:
+- Diagrama de Casos:
 
 ![Captura de tela 2025-11-11 221950](https://github.com/user-attachments/assets/a284e754-43c9-4ec0-af97-b07709680cc7)
 
